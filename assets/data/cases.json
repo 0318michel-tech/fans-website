@@ -1,0 +1,1455 @@
+{
+  "cases": [
+    {
+      "id": "01",
+      "name": "SKYWORTH创维",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_01_SKYWORTH创维.jpg",
+      "detail_folder": "assets/cases/case_1",
+      "editable": true,
+      "services": [
+        "品牌策略",
+        "品牌视觉系统"
+      ],
+      "style_tags": [
+        "国际化",
+        "数字优先",
+        "科技感"
+      ],
+      "highlight": "为全球智能电视巨头创建数字优先的新识别，支持从电视巨头向全球科技品牌演化"
+    },
+    {
+      "id": "46",
+      "name": "微众银行WeBank",
+      "sections": [
+        "科技与智造",
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "金融",
+      "cover_image": "assets/cases/case_46/p01.jpg",
+      "detail_folder": "assets/cases/case_46",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "03",
+      "name": "思摩尔国际",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_03_思摩尔国际.jpg",
+      "detail_folder": "assets/cases/case_3",
+      "editable": true,
+      "services": [
+        "品牌视觉",
+        "产品线包装",
+        "三维渲染",
+        "视觉拍摄"
+      ],
+      "style_tags": [
+        "科技",
+        "国际化",
+        "数据可视化"
+      ],
+      "highlight": "为全球领先雾化科技品牌做创意赋能与产品视觉"
+    },
+    {
+      "id": "02",
+      "name": "IIIF150",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_02_IIIF150.jpg",
+      "detail_folder": "assets/cases/case_2",
+      "editable": true,
+      "services": [
+        "品牌策略",
+        "品牌视觉"
+      ],
+      "style_tags": [
+        "野性",
+        "户外",
+        "年轻"
+      ],
+      "highlight": "为户外手机品牌创建「Keep Wild」定位与识别"
+    },
+    {
+      "id": "04",
+      "name": "yoyorun有跑",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_04_yoyorun有跑.jpg",
+      "detail_folder": "assets/cases/case_4",
+      "editable": true,
+      "services": [
+        "品牌构建",
+        "设计"
+      ],
+      "style_tags": [
+        "运动",
+        "科技",
+        "共享"
+      ],
+      "highlight": "共享跑步机品牌构建及设计"
+    },
+    {
+      "id": "05",
+      "name": "CRAZYBABY",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_05_CRAZYBABY.jpg",
+      "detail_folder": "assets/cases/case_5",
+      "editable": true,
+      "services": [
+        "品牌构建",
+        "设计"
+      ],
+      "style_tags": [
+        "科技",
+        "音频",
+        "极简"
+      ],
+      "highlight": "音响品牌构建及设计"
+    },
+    {
+      "id": "06",
+      "name": "酷开COOCAA",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_06_酷开COOCAA.jpg",
+      "detail_folder": "assets/cases/case_6",
+      "editable": true,
+      "services": [
+        "品牌构建",
+        "设计"
+      ],
+      "style_tags": [
+        "科技",
+        "年轻化",
+        "互联网"
+      ],
+      "highlight": "酷开品牌构建及设计"
+    },
+    {
+      "id": "07",
+      "name": "Spooky eyes",
+      "sections": [
+        "科技与智造"
+      ],
+      "industry": "科技",
+      "cover_image": "assets/cases/case_07_Spookyeyes鬼眼甲.jpg",
+      "detail_folder": "assets/cases/case_7",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "08",
+      "name": "华润创业",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "企业",
+      "cover_image": "assets/cases/case_08_华润创业.jpg",
+      "detail_folder": "assets/cases/case_8",
+      "editable": true,
+      "services": [
+        "品牌梳理",
+        "视觉升级",
+        "管理指引"
+      ],
+      "style_tags": [
+        "集团",
+        "规范",
+        "连接"
+      ],
+      "highlight": "为央企大消费板块孵化平台建立视觉规范及指引"
+    },
+    {
+      "id": "09",
+      "name": "深圳能源",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "能源",
+      "cover_image": "assets/cases/case_09_深圳能源.jpg",
+      "detail_folder": "assets/cases/case_9",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "12",
+      "name": "深圳市第四人民医院",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "企业与商业"
+      ],
+      "industry": "医疗",
+      "cover_image": "assets/cases/case_12_深圳市第四人民医院.jpg",
+      "detail_folder": "assets/cases/case_12",
+      "editable": true,
+      "services": [
+        "品牌视觉系统",
+        "IP创作",
+        "文创",
+        "空间体验"
+      ],
+      "style_tags": [
+        "医疗",
+        "专业",
+        "亲和",
+        "疗愈"
+      ],
+      "highlight": "从品牌视觉到IP与空间，为医院链接多角色价值触点"
+    },
+    {
+      "id": "13",
+      "name": "南山机关事务管理局",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "企业与商业"
+      ],
+      "industry": "政务",
+      "cover_image": "assets/cases/case_13_南山机关事务管理局.jpg",
+      "detail_folder": "assets/cases/case_13",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": "",
+      "video": "assets/cases/case_13/video/video_13.mp4"
+    },
+    {
+      "id": "14",
+      "name": "再造集团Reage",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "消费与生活",
+        "生活方式",
+        "企业与商业"
+      ],
+      "industry": "设计",
+      "cover_image": "assets/cases/case_14/p01.jpg",
+      "detail_folder": "assets/cases/case_14",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": "",
+      "video": "assets/cases/case_14/video/video_14.mov"
+    },
+    {
+      "id": "52",
+      "name": "苏州丝绸博物馆",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "消费与生活",
+        "生活方式",
+        "时尚",
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "文化",
+      "cover_image": "assets/cases/case_52_苏州丝绸博物馆.jpg",
+      "detail_folder": "assets/cases/case_52",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "15",
+      "name": "彩生活",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "物业",
+      "cover_image": "assets/cases/case_15_彩生活.jpg",
+      "detail_folder": "assets/cases/case_15",
+      "editable": true,
+      "services": [
+        "IP创作",
+        "IP渲染",
+        "文创衍生"
+      ],
+      "style_tags": [
+        "物业",
+        "IP",
+        "亲和",
+        "智慧"
+      ],
+      "highlight": "用IP创造物业场景中的多彩生活"
+    },
+    {
+      "id": "48",
+      "name": "深国际",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "物流",
+      "cover_image": "assets/cases/case_48_深国际.jpg",
+      "detail_folder": "assets/cases/case_48",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "10",
+      "name": "华艺照明",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "照明",
+      "cover_image": "assets/cases/case_10_华艺照明.jpg",
+      "detail_folder": "assets/cases/case_10",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "11",
+      "name": "诺发国际",
+      "sections": [
+        "企业与公共",
+        "企业",
+        "商业与产业",
+        "商业与企业",
+        "企业与商业"
+      ],
+      "industry": "企业",
+      "cover_image": "assets/cases/case_11/p01.jpg",
+      "detail_folder": "assets/cases/case_11",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "16",
+      "name": "香港中文大学深圳",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "文化与公益",
+        "教育与公益",
+        "企业与商业"
+      ],
+      "industry": "教育",
+      "cover_image": "assets/cases/case_16/p01.jpg",
+      "detail_folder": "assets/cases/case_16",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "17",
+      "name": "深圳大学双创中心",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "教育",
+      "cover_image": "assets/cases/case_17_深圳大学双创中心.jpg",
+      "detail_folder": "assets/cases/case_17",
+      "editable": true,
+      "services": [
+        "宣传工具设计",
+        "导视系统规划"
+      ],
+      "style_tags": [
+        "教育",
+        "创新",
+        "年轻"
+      ],
+      "highlight": "为深圳大学创新创业沃土注入创意活力"
+    },
+    {
+      "id": "18",
+      "name": "深圳大学建筑研究院",
+      "sections": [
+        "企业与公共",
+        "公共事业",
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "科研",
+      "cover_image": "assets/cases/case_18/p01.jpg",
+      "detail_folder": "assets/cases/case_18",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "19",
+      "name": "华润万象生活",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与公共",
+        "企业",
+        "企业与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_19_华润万象生活.jpg",
+      "detail_folder": "assets/cases/case_19",
+      "editable": true,
+      "services": [
+        "品牌梳理",
+        "形象升级",
+        "画册设计"
+      ],
+      "style_tags": [
+        "商业",
+        "集团",
+        "花瓣符号"
+      ],
+      "highlight": "商业地产集团企业品牌升级"
+    },
+    {
+      "id": "73",
+      "name": "万象服务",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_73_万象服务.jpg",
+      "detail_folder": "assets/cases/case_73",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "74",
+      "name": "万象星",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_74_万象星.jpg",
+      "detail_folder": "assets/cases/case_74",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "72",
+      "name": "万象城",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_72_万象城.jpg",
+      "detail_folder": "assets/cases/case_72",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "75",
+      "name": "印力集团",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与公共",
+        "企业",
+        "企业与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_75_印力集团.jpg",
+      "detail_folder": "assets/cases/case_75",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "20",
+      "name": "招商蛇口",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_20_招商蛇口.jpg",
+      "detail_folder": "assets/cases/case_20",
+      "editable": true,
+      "services": [
+        "品牌理念体系",
+        "商业架构",
+        "画册设计"
+      ],
+      "style_tags": [
+        "商业",
+        "文旅",
+        "Super M"
+      ],
+      "highlight": "招商蛇口商业品牌体系构建"
+    },
+    {
+      "id": "21",
+      "name": "招商-意库",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_21_招商-意库.jpg",
+      "detail_folder": "assets/cases/case_21",
+      "editable": true,
+      "services": [
+        "品牌理念体系",
+        "视觉系统"
+      ],
+      "style_tags": [
+        "文创",
+        "产业园",
+        "创意"
+      ],
+      "highlight": "招商蛇口文创产业园品牌升级"
+    },
+    {
+      "id": "22",
+      "name": "招商-网谷",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_22_招商-网谷.jpg",
+      "detail_folder": "assets/cases/case_22",
+      "editable": true,
+      "services": [
+        "品牌理念体系",
+        "视觉系统"
+      ],
+      "style_tags": [
+        "科创",
+        "产业园",
+        "企业成长"
+      ],
+      "highlight": "招商蛇口科创产业园品牌升级"
+    },
+    {
+      "id": "70",
+      "name": "招商-寓所",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_70_招商-寓所.jpg",
+      "detail_folder": "assets/cases/case_70",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "23",
+      "name": "小梅沙",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_23_小梅沙.jpg",
+      "detail_folder": "assets/cases/case_23",
+      "editable": true,
+      "services": [
+        "品牌策略",
+        "品牌架构",
+        "视觉体系"
+      ],
+      "style_tags": [
+        "文旅",
+        "山海",
+        "时尚"
+      ],
+      "highlight": "40年深圳高端旅游度假区升级为世界级亲海度假城区"
+    },
+    {
+      "id": "24",
+      "name": "欢乐港湾",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_24_欢乐港湾.jpg",
+      "detail_folder": "assets/cases/case_24",
+      "editable": true,
+      "services": [
+        "品牌系统",
+        "创意营销",
+        "推广设计"
+      ],
+      "style_tags": [
+        "文旅",
+        "摩天轮",
+        "事件营销"
+      ],
+      "highlight": "以摩天轮太空舱为爆点的城市文旅商业"
+    },
+    {
+      "id": "69",
+      "name": "欢乐海岸",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_69_欢乐海岸.jpg",
+      "detail_folder": "assets/cases/case_69",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "25",
+      "name": "天街",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_25_天街.jpg",
+      "detail_folder": "assets/cases/case_25",
+      "editable": true,
+      "services": [
+        "新媒体运营",
+        "营销事件"
+      ],
+      "style_tags": [
+        "商业",
+        "新媒体",
+        "事件营销"
+      ],
+      "highlight": "购物中心新媒体矩阵与城市级营销事件"
+    },
+    {
+      "id": "26",
+      "name": "大仟里",
+      "sections": [
+        "商业与产业",
+        "商业与企业",
+        "文旅与商业",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_26_大仟里.jpg",
+      "detail_folder": "assets/cases/case_26",
+      "editable": true,
+      "services": [
+        "IP创作",
+        "衍生品",
+        "场景应用"
+      ],
+      "style_tags": [
+        "商业",
+        "IP",
+        "熊猫",
+        "可爱"
+      ],
+      "highlight": "为宝安大仟里创造脑洞熊猫IP噗哒"
+    },
+    {
+      "id": "62",
+      "name": "武阳里",
+      "sections": [
+        "商业与产业",
+        "文旅与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_62_武阳里.jpg",
+      "detail_folder": "assets/cases/case_62",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "61",
+      "name": "大又商管",
+      "sections": [
+        "商业与产业",
+        "文旅与商业",
+        "酒管与商业"
+      ],
+      "industry": "商业",
+      "cover_image": "assets/cases/case_61_大又商管.jpg",
+      "detail_folder": "assets/cases/case_61",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "29",
+      "name": "茉莉奶白",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "茶饮",
+      "cover_image": "assets/cases/case_29_茉莉奶白.jpg",
+      "detail_folder": "assets/cases/case_29",
+      "editable": true,
+      "services": [
+        "品牌IP",
+        "IP文创",
+        "品牌空间"
+      ],
+      "style_tags": [
+        "茶饮",
+        "国风",
+        "IP",
+        "空间"
+      ],
+      "highlight": "从IP到空间，为新中式茶饮黑马创造新印象"
+    },
+    {
+      "id": "30",
+      "name": "咕鹿披萨",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "餐饮",
+      "cover_image": "assets/cases/case_30_咕鹿披萨.jpg",
+      "detail_folder": "assets/cases/case_30",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "50",
+      "name": "旷场咖啡",
+      "sections": [
+        "消费与生活",
+        "茶饮",
+        "生活方式"
+      ],
+      "industry": "咖啡",
+      "cover_image": "assets/cases/case_50_旷场咖啡.jpg",
+      "detail_folder": "assets/cases/case_50",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "28",
+      "name": "思速力",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "运动",
+      "cover_image": "assets/cases/case_28/p01.jpg",
+      "detail_folder": "assets/cases/case_28",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "27",
+      "name": "亚迪小筑",
+      "sections": [
+        "消费与生活",
+        "酒管与商业",
+        "企业与商业",
+        "企业与公共"
+      ],
+      "industry": "生活方式",
+      "cover_image": "assets/cases/case_27_亚迪小筑.jpg",
+      "detail_folder": "assets/cases/case_27",
+      "editable": true,
+      "services": [
+        "品牌策略",
+        "命名",
+        "理念系统",
+        "视觉系统"
+      ],
+      "style_tags": [
+        "新能源",
+        "商旅",
+        "科技",
+        "人本"
+      ],
+      "highlight": "比亚迪内部公寓品牌，探寻工作与生活的平衡"
+    },
+    {
+      "id": "54",
+      "name": "万罐酿造",
+      "sections": [
+        "消费与生活",
+        "茶饮",
+        "生活方式"
+      ],
+      "industry": "酿造",
+      "cover_image": "assets/cases/case_54_万罐酿造.jpg",
+      "detail_folder": "assets/cases/case_54",
+      "editable": true,
+      "services": [
+        "品牌形象",
+        "包装设计"
+      ],
+      "style_tags": [
+        "精酿",
+        "罐装",
+        "年轻"
+      ],
+      "highlight": "以罐为符号的精酿酿造品牌形象打造"
+    },
+    {
+      "id": "51",
+      "name": "麦轩",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "烘焙",
+      "cover_image": "assets/cases/case_51_麦轩.jpg",
+      "detail_folder": "assets/cases/case_51",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "32",
+      "name": "尊宝披萨",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "餐饮",
+      "cover_image": "assets/cases/case_32_尊宝披萨.jpg",
+      "detail_folder": "assets/cases/case_32",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "33",
+      "name": "be echoes回响",
+      "sections": [
+        "消费与生活",
+        "茶饮",
+        "生活方式"
+      ],
+      "industry": "生活方式",
+      "cover_image": "assets/cases/case_33_be echoes回响.jpg",
+      "detail_folder": "assets/cases/case_33",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "56",
+      "name": "大湾小月",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "消费",
+      "cover_image": "assets/cases/case_56_大湾小月.jpg",
+      "detail_folder": "assets/cases/case_56",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "34",
+      "name": "寻尝茶铺",
+      "sections": [
+        "消费与生活",
+        "茶饮",
+        "生活方式"
+      ],
+      "industry": "茶饮",
+      "cover_image": "assets/cases/case_34_寻尝茶铺.jpg",
+      "detail_folder": "assets/cases/case_34",
+      "editable": true,
+      "services": [
+        "品牌命名",
+        "理念系统",
+        "品牌故事",
+        "视觉系统",
+        "品牌空间"
+      ],
+      "style_tags": [
+        "茶饮",
+        "零售",
+        "轻松",
+        "自然"
+      ],
+      "highlight": "让好茶回归味道的茶叶新零售品牌"
+    },
+    {
+      "id": "57",
+      "name": "TTL",
+      "sections": [
+        "消费与生活",
+        "时尚"
+      ],
+      "industry": "品牌",
+      "cover_image": "assets/cases/case_57_TTL.jpg",
+      "detail_folder": "assets/cases/case_57",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "35",
+      "name": "TTLab",
+      "sections": [
+        "消费与生活",
+        "时尚"
+      ],
+      "industry": "品牌",
+      "cover_image": "assets/cases/case_35_TTLab.jpg",
+      "detail_folder": "assets/cases/case_35",
+      "editable": true,
+      "services": [
+        "品牌命名",
+        "理念系统",
+        "视觉系统",
+        "超级符号"
+      ],
+      "style_tags": [
+        "时尚",
+        "服饰",
+        "年轻",
+        "AB面"
+      ],
+      "highlight": "大众化时尚品牌超级符号升级"
+    },
+    {
+      "id": "36",
+      "name": "Roundtable",
+      "sections": [
+        "消费与生活",
+        "时尚"
+      ],
+      "industry": "时尚",
+      "cover_image": "assets/cases/case_36_Roundtable.jpg",
+      "detail_folder": "assets/cases/case_36",
+      "editable": true,
+      "services": [
+        "理念系统",
+        "logo",
+        "品牌杂志",
+        "门店设计",
+        "活动策划"
+      ],
+      "style_tags": [
+        "时尚",
+        "个人品牌",
+        "杂志",
+        "先锋"
+      ],
+      "highlight": "与女性时装品牌追寻自我的一场生活实践"
+    },
+    {
+      "id": "38",
+      "name": "吉哥鸡煲大排档",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "餐饮",
+      "cover_image": "assets/cases/case_38_吉哥鸡煲大排档.jpg",
+      "detail_folder": "assets/cases/case_38",
+      "editable": true,
+      "services": [
+        "品牌命名",
+        "理念系统",
+        "视觉系统",
+        "超级符号",
+        "空间设计",
+        "艺术装置"
+      ],
+      "style_tags": [
+        "餐饮",
+        "大排档",
+        "港式",
+        "烟火气"
+      ],
+      "highlight": "经典粤味街坊大排档品牌与空间"
+    },
+    {
+      "id": "39",
+      "name": "我是酸奶君",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "餐饮",
+      "cover_image": "assets/cases/case_39_我是酸奶君.jpg",
+      "detail_folder": "assets/cases/case_39",
+      "editable": true,
+      "services": [
+        "logo升级",
+        "视觉体系",
+        "包装",
+        "IP",
+        "空间"
+      ],
+      "style_tags": [
+        "饮品",
+        "酸奶",
+        "健康",
+        "IP",
+        "田园"
+      ],
+      "highlight": "与健康饮食爱好者共识更健康的酸奶符号"
+    },
+    {
+      "id": "71",
+      "name": "OWN SWAY gelato",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "冰淇淋",
+      "cover_image": "assets/cases/case_71_OWN SWAY gelato.jpg",
+      "detail_folder": "assets/cases/case_71",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "37",
+      "name": "祯厨娘",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "餐饮",
+      "cover_image": "assets/cases/case_37_祯厨娘.jpg",
+      "detail_folder": "assets/cases/case_37",
+      "editable": true,
+      "services": [
+        "品牌logo",
+        "理念系统",
+        "视觉系统",
+        "产品包装",
+        "零售展陈"
+      ],
+      "style_tags": [
+        "食品",
+        "鲜花",
+        "多巴胺",
+        "粤味"
+      ],
+      "highlight": "天然鲜花零食饮料的多巴胺演绎"
+    },
+    {
+      "id": "55",
+      "name": "百果园",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "水果",
+      "cover_image": "assets/cases/case_55_百果园.jpg",
+      "detail_folder": "assets/cases/case_55",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "53",
+      "name": "乔穆杰玛",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "文化",
+      "cover_image": "assets/cases/case_53_乔穆杰玛.jpg",
+      "detail_folder": "assets/cases/case_53",
+      "editable": true,
+      "services": [
+        "品牌空间体验",
+        "展柜设计"
+      ],
+      "style_tags": [
+        "藏族人文",
+        "氛围",
+        "空间"
+      ],
+      "highlight": "让藏族人文在品牌空间氛围中被感知与体验"
+    },
+    {
+      "id": "60",
+      "name": "By Baking",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "烘焙",
+      "cover_image": "assets/cases/case_60_By Baking.jpg",
+      "detail_folder": "assets/cases/case_60",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "58",
+      "name": "盏望ZAANMON",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "时尚",
+      "cover_image": "assets/cases/case_58_盏望ZAANMON.jpg",
+      "detail_folder": "assets/cases/case_58",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "31",
+      "name": "跳海酒馆",
+      "sections": [
+        "消费与生活",
+        "茶饮"
+      ],
+      "industry": "酒馆",
+      "cover_image": "assets/cases/case_31_跳海酒馆.jpg",
+      "detail_folder": "assets/cases/case_31",
+      "editable": true,
+      "services": [
+        "活动策划",
+        "活动联名"
+      ],
+      "style_tags": [
+        "餐饮",
+        "酒馆",
+        "街舞",
+        "街头文化"
+      ],
+      "highlight": "当代年轻人酒馆文化与街头活动联名"
+    },
+    {
+      "id": "59",
+      "name": "燕塘",
+      "sections": [
+        "消费与生活"
+      ],
+      "industry": "乳业",
+      "cover_image": "assets/cases/case_59_燕塘.jpg",
+      "detail_folder": "assets/cases/case_59",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "40",
+      "name": "深圳市足球俱乐部",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "体育",
+      "cover_image": "assets/cases/case_40/p01.jpg",
+      "detail_folder": "assets/cases/case_40",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "41",
+      "name": "逗号戏剧",
+      "sections": [
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "戏剧",
+      "cover_image": "assets/cases/case_41_逗号戏剧.jpg",
+      "detail_folder": "assets/cases/case_41",
+      "editable": true,
+      "services": [
+        "品牌logo",
+        "视觉系统",
+        "理念系统",
+        "空间",
+        "文创"
+      ],
+      "style_tags": [
+        "戏剧",
+        "艺术",
+        "教育",
+        "中性"
+      ],
+      "highlight": "跨越成年到儿童的戏剧艺术与教育品牌"
+    },
+    {
+      "id": "42",
+      "name": "蛇口社区无车日",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_42_蛇口社区无车日.jpg",
+      "detail_folder": "assets/cases/case_42",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "63",
+      "name": "善意小店",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_63_善意小店.jpg",
+      "detail_folder": "assets/cases/case_63",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "64",
+      "name": "瀞心儿童阅读专项基金",
+      "sections": [
+        "文化与公益",
+        "教育与公益",
+        "企业与公共",
+        "公共事业"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_64/p01.jpg",
+      "detail_folder": "assets/cases/case_64",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "68",
+      "name": "丰子恺儿童图画书奖",
+      "sections": [
+        "文化与公益",
+        "教育与公益",
+        "企业与公共",
+        "公共事业"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_68_丰子恺儿童图画书奖.jpg",
+      "detail_folder": "assets/cases/case_68",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "66",
+      "name": "爱阅公益",
+      "sections": [
+        "文化与公益",
+        "教育与公益",
+        "企业与公共",
+        "公共事业"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_66_爱阅公益.jpg",
+      "detail_folder": "assets/cases/case_66",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "49",
+      "name": "老西门艺术节",
+      "sections": [
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "节事",
+      "cover_image": "assets/cases/case_49_老西门艺术节.jpg",
+      "detail_folder": "assets/cases/case_49",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "65",
+      "name": "阳光宝贝",
+      "sections": [
+        "文化与公益",
+        "教育与公益"
+      ],
+      "industry": "公益",
+      "cover_image": "assets/cases/case_65_阳光宝贝.jpg",
+      "detail_folder": "assets/cases/case_65",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "67",
+      "name": "胖鸟剧团",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "戏剧",
+      "cover_image": "assets/cases/case_67_胖鸟剧团.jpg",
+      "detail_folder": "assets/cases/case_67",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "44",
+      "name": "好事集盒",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "文化",
+      "cover_image": "assets/cases/case_44_好事集盒.jpg",
+      "detail_folder": "assets/cases/case_44",
+      "editable": true,
+      "services": [
+        "活动主题创意",
+        "艺术装置",
+        "非遗文创",
+        "空间设计",
+        "活动推广"
+      ],
+      "style_tags": [
+        "节事",
+        "文创",
+        "非遗",
+        "海洋",
+        "珠海"
+      ],
+      "highlight": "不寻常放大生活日常，唤起城市文化新共鸣"
+    },
+    {
+      "id": "45",
+      "name": "南头古城新年巡游",
+      "sections": [
+        "文化与公益"
+      ],
+      "industry": "节事",
+      "cover_image": "assets/cases/case_45/p01.jpg",
+      "detail_folder": "assets/cases/case_45",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    }
+  ]
+}
