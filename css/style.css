@@ -2480,6 +2480,19 @@ body.view-spread .case-nav-sidebar:hover {
   transform: translateX(-50%) translateY(0);
 }
 
+/* ================ FANSservice 页 IP 案例分享图标 ================ */
+.service-specialty-link .filter-share {
+  margin-left: 8px;
+  opacity: 0;
+}
+.service-specialty-link:hover .filter-share,
+.service-specialty-link .filter-share:hover,
+.service-specialty-link .filter-share:focus { opacity: 0.55; }
+.service-specialty-link .filter-share:hover { opacity: 1; }
+@media (hover: none) {
+  .service-specialty-link .filter-share { opacity: 0.45; }
+}
+
 /* ================ IP 形象案例页（新版网格+弹窗）================ */
 .ip-page-head {
   padding: var(--s-5) 0 var(--s-5);
