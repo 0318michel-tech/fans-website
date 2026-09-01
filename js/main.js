@@ -258,17 +258,24 @@ function initCaseFilters() {
 function initViewToggle() {
   const btns = document.querySelectorAll('.view-toggle-btn');
   if (!btns.length) return;
+  function setView(view) {
+    btns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+    const active = document.querySelector('.view-toggle-btn[data-view="' + view + '"]');
+    if (active) { active.classList.add('active'); active.setAttribute('aria-selected', 'true'); }
+    document.body.classList.remove('view-grid', 'view-spread');
+    document.body.classList.add('view-' + view);
+  }
   btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const view = btn.dataset.view;
-      btns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-      document.body.classList.remove('view-grid', 'view-spread');
-      document.body.classList.add('view-' + view);
-    });
+    btn.addEventListener('click', () => setView(btn.dataset.view));
   });
-  document.body.classList.add('view-grid');
+  // URL param: ?view=spread 自动切换视图（分享给客户时使用）
+  const params = new URLSearchParams(location.search);
+  const urlView = params.get('view');
+  if (urlView === 'spread' || urlView === 'grid') {
+    setView(urlView);
+  } else {
+    setView('grid');
+  }
 }
 
 // ================ CASE NAV SIDEBAR ================
@@ -432,7 +439,8 @@ const SHARE_ICON_SVG = '<svg viewBox="0 0 24 24" width="11" height="11" fill="no
 function shareFilterLink(filterName) {
   const base = location.href.split(/[?#]/)[0];
   const alias = SHARE_ALIASES[filterName];
-  const url = filterName === 'all' ? base : (base + '?industry=' + alias);
+  // 分享链接默认带 view=spread，客户打开就是完整展开视图
+  const url = filterName === 'all' ? (base + '?view=spread') : (base + '?industry=' + alias + '&view=spread');
   const label = filterName === 'all' ? '全部案例' : filterName;
 
   const done = () => showShareToast(label + ' 链接已复制 · ' + url);
