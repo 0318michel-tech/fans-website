@@ -408,6 +408,90 @@ function initPdfCarousel() {
   });
 }
 
+// ================ FILTER SHARE — 分类分享图标，点击复制筛选链接 ================
+const SHARE_ALIASES = {
+  '科技与智造': 'tech',
+  '企业与公共': 'public',
+  '企业': 'enterprise',
+  '公共事业': 'utilities',
+  '企业与商业': 'enterprise-commerce',
+  '商业与产业': 'commerce',
+  '商业与企业': 'business',
+  '文旅与商业': 'commerce-culture',
+  '酒管与商业': 'hotel',
+  '消费与生活': 'consumer',
+  '茶饮': 'tea',
+  '生活方式': 'lifestyle',
+  '时尚': 'fashion',
+  '文化与公益': 'culture',
+  '教育与公益': 'education',
+};
+
+const SHARE_ICON_SVG = '<svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>';
+
+function shareFilterLink(filterName) {
+  const base = location.href.split(/[?#]/)[0];
+  const alias = SHARE_ALIASES[filterName];
+  const url = filterName === 'all' ? base : (base + '?industry=' + alias);
+  const label = filterName === 'all' ? '全部案例' : filterName;
+
+  const done = () => showShareToast(label + ' 链接已复制 · ' + url);
+  const fail = () => showShareToast('复制失败，请手动复制：' + url);
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(done).catch(() => legacyCopy(url) ? done() : fail());
+  } else {
+    legacyCopy(url) ? done() : fail();
+  }
+}
+
+function legacyCopy(text) {
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;left:-9999px;top:0;opacity:0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (e) { return false; }
+}
+
+function showShareToast(msg) {
+  let toast = document.getElementById('share-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'share-toast';
+    toast.className = 'share-toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
+}
+
+function initFilterShare() {
+  const filters = document.querySelectorAll('.cases-filter[data-filter]');
+  if (!filters.length) return;
+  filters.forEach(btn => {
+    const filterName = btn.dataset.filter;
+    // 复制当前筛选状态时也同步分享对应链接（active 按钮点击图标分享它自己）
+    const share = document.createElement('span');
+    share.className = 'filter-share';
+    share.title = '复制「' + (filterName === 'all' ? '全部案例' : filterName) + '」分享链接';
+    share.innerHTML = SHARE_ICON_SVG;
+    share.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      shareFilterLink(filterName);
+    });
+    btn.appendChild(share);
+  });
+}
+
 // ================ INIT ================
 document.addEventListener('DOMContentLoaded', () => {
   initNav();
@@ -417,4 +501,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initVideoHover();
   initCaseNavSidebar();
   initPdfCarousel();
+  initFilterShare();
 });
