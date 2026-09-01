@@ -2306,16 +2306,17 @@ body.view-spread .cases-spread { display: flex; }
 .ip-case-rest::-webkit-scrollbar-thumb { background: var(--gray-7); border-radius: 2px; }
 
 /* 旧的 ip-cases-* 样式不再使用，保留以防冲突 */
+/* （已彻底注释：display:none 会把新 .ip-cases-grid 也隐藏掉）
 .ip-cases-section,
 .ip-cases-header,
 .ip-cases-title,
-.ip-cases-grid,
 .ip-cases-no,
 .ip-cases-meta,
 .ip-cases-pdf,
 .ip-cases-title-en {
   display: none;
 }
+*/
 
 /* ============================================
    CASE NAV SIDEBAR — FANSproject 案例浮动导航
