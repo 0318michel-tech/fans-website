@@ -500,6 +500,30 @@ function initFilterShare() {
   });
 }
 
+/* FANSservice 页：IP 形象案例入口的分享图标（点击复制 specialty-ip.html 链接） */
+function initServiceShare() {
+  const link = document.querySelector('a.service-specialty-link[href="specialty-ip.html"]');
+  if (!link) return;
+  const share = document.createElement('span');
+  share.className = 'filter-share service-share';
+  share.title = '复制「IP 项目案例」分享链接';
+  share.innerHTML = SHARE_ICON_SVG;
+  share.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const base = location.href.split(/[?#]/)[0];
+    const url = base.replace(/service\.html$/, 'specialty-ip.html');
+    const done = () => showShareToast('IP 项目案例 链接已复制 · ' + url);
+    const fail = () => showShareToast('复制失败，请手动复制：' + url);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done).catch(() => legacyCopy(url) ? done() : fail());
+    } else {
+      legacyCopy(url) ? done() : fail();
+    }
+  });
+  link.appendChild(share);
+}
+
 // ================ INIT ================
 document.addEventListener('DOMContentLoaded', () => {
   initNav();
@@ -510,4 +534,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initCaseNavSidebar();
   initPdfCarousel();
   initFilterShare();
+  initServiceShare();
 });
