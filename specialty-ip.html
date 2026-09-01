@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IP 形象案例 — 凡事创意</title>
-<meta name="description" content="FANS Creative IP 形象专项出品案例。">
+<meta name="description" content="FANS Creative IP 形象专项出品案例：品牌 IP 形象设计与延展应用。">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,201 +26,440 @@
   <button class="nav-toggle">☰</button>
 </nav>
 
-<!-- IP 案例：按 PDF 案例分块，每块首页作为封面 + hover 后横向滚动展示 -->
-<section class="ip-cases-wrap">
+<!-- IP 形象案例 · 网格视图（与 FANSproject 相同的卡片+弹窗样式） -->
+<section class="section project-section">
   <div class="container">
 
-    <!-- 案例 01 · SAMII · 医院 IP -->
-    <article class="ip-case" data-name="SAMII">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">01</span>
-        <span class="ip-case-title">SAMII · 深圳市第四人民医院</span>
-      </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p01.jpg" alt="SAMII · 深圳市第四人民医院 · 医院 IP · 封面">
-      </div>
-      <div class="ip-case-rest" data-pages="01,02,03,04" data-prefix="ip_main" data-start="1">
-        <img src="assets/specialty-cases/ip/ip_main_p01.jpg" alt="SAMII P01">
-        <img src="assets/specialty-cases/ip/ip_main_p02.jpg" alt="SAMII P02">
-        <img src="assets/specialty-cases/ip/ip_main_p03.jpg" alt="SAMII P03">
-        <img src="assets/specialty-cases/ip/ip_main_p04.jpg" alt="SAMII P04">
-      </div>
-    </article>
+    <div class="ip-page-head">
+      <h1 class="ip-page-title">IP 形象案例</h1>
+      <div class="ip-page-sub">CASES · 11<span class="ip-page-divider">/</span>品牌 IP 形象设计与延展应用</div>
+    </div>
 
-    <!-- 案例 02 · PUDA · 宝安大仟里 -->
-    <article class="ip-case" data-name="PUDA">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">02</span>
-        <span class="ip-case-title">PUDA · 宝安大仟里</span>
+    <div class="cases-grid ip-cases-grid">
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(15)">
+        <img class="case-card-img" src="assets/cases/case_15_彩生活.jpg" alt="彩生活" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">彩生活</div>
+          <div class="case-card-industry">企业 · 物业</div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p05.jpg" alt="PUDA · 宝安大仟里 IP · 封面">
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(26)">
+        <img class="case-card-img" src="assets/cases/case_26_大仟里.jpg" alt="大仟里" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">大仟里</div>
+          <div class="case-card-industry">商业 · 购物中心</div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p05.jpg" alt="PUDA P05">
-        <img src="assets/specialty-cases/ip/ip_main_p06.jpg" alt="PUDA P06">
-        <img src="assets/specialty-cases/ip/ip_main_p07.jpg" alt="PUDA P07">
-        <img src="assets/specialty-cases/ip/ip_main_p08.jpg" alt="PUDA P08">
-        <img src="assets/specialty-cases/ip/ip_main_p09.jpg" alt="PUDA P09">
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(62)">
+        <img class="case-card-img" src="assets/cases/case_62_武阳里.jpg" alt="武阳里" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">武阳里</div>
+          <div class="case-card-industry">商业 · 文旅街区</div>
+        </div>
       </div>
-    </article>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(29)">
+        <img class="case-card-img" src="assets/cases/case_29_茉莉奶白.jpg" alt="茉莉奶白" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">茉莉奶白</div>
+          <div class="case-card-industry">消费 · 茶饮</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(39)">
+        <img class="case-card-img" src="assets/cases/case_39_我是酸奶君.jpg" alt="我是酸奶君" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">我是酸奶君</div>
+          <div class="case-card-industry">消费 · 酸奶</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(51)">
+        <img class="case-card-img" src="assets/cases/case_51_麦轩.jpg" alt="麦轩" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">麦轩</div>
+          <div class="case-card-industry">消费 · 烘焙</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(57)">
+        <img class="case-card-img" src="assets/cases/case_57_TTL.jpg" alt="TTL" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">TTL</div>
+          <div class="case-card-industry">消费 · 品牌</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(25)">
+        <img class="case-card-img" src="assets/cases/case_25_天街.jpg" alt="天街" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">天街</div>
+          <div class="case-card-industry">商业 · 购物中心</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(61)">
+        <img class="case-card-img" src="assets/cases/case_61_大又商管.jpg" alt="大又商管" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">大又商管</div>
+          <div class="case-card-industry">商业 · 商管</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(32)">
+        <img class="case-card-img" src="assets/cases/case_32_尊宝披萨.jpg" alt="尊宝披萨" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">尊宝披萨</div>
+          <div class="case-card-industry">消费 · 餐饮</div>
+        </div>
+      </div>
+      <div class="case-card reveal" data-sections="IP形象案例" data-industry="IP" onclick="openCase(46)">
+        <img class="case-card-img" src="assets/cases/case_46/p01.jpg" alt="微众银行WeBank" loading="eager">
+        <div class="case-card-section-tag">IP 形象案例</div>
+        <div class="case-card-info">
+          <div class="case-card-name">微众银行WeBank</div>
+          <div class="case-card-industry">科技 · 数字银行</div>
+        </div>
+      </div>
+    </div>
 
-    <!-- 案例 03 · 我是酸奶君 · 燕塘 -->
-    <article class="ip-case" data-name="SuannaiJun">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">03</span>
-        <span class="ip-case-title">我是酸奶君 · 燕塘乳业</span>
-      </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p10.jpg" alt="我是酸奶君 · 燕塘乳业 IP · 封面">
-      </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p10.jpg" alt="酸奶君 P10">
-        <img src="assets/specialty-cases/ip/ip_main_p11.jpg" alt="酸奶君 P11">
-        <img src="assets/specialty-cases/ip/ip_main_p12.jpg" alt="酸奶君 P12">
-        <img src="assets/specialty-cases/ip/ip_main_p13.jpg" alt="酸奶君 P13">
-        <img src="assets/specialty-cases/ip/ip_main_p14.jpg" alt="酸奶君 P14">
-        <img src="assets/specialty-cases/ip/ip_main_p15.jpg" alt="酸奶君 P15">
-      </div>
-    </article>
+  </div>
+</section>
 
-    <!-- 案例 04 · COLOUR LIFT · 新大正物业 -->
-    <article class="ip-case" data-name="ColourLift">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">04</span>
-        <span class="ip-case-title">COLOUR LIFT · 新大正物业</span>
+<!-- 案例详情弹窗 -->
+<section class="case-modals">
+<div class="case-modal" id="case-modal-15" data-cid="15">
+    <button class="modal-close" onclick="closeCase(15)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">彩生活</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>企业 · 物业</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>企业与公共</div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p20.jpg" alt="COLOUR LIFT · 新大正物业 · 猫头鹰 IP · 封面">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_15/p01.jpg" alt="彩生活" loading="eager"><img src="assets/cases/case_15/p02.jpg" alt="彩生活" loading="eager"><img src="assets/cases/case_15/p03.jpg" alt="彩生活" loading="eager"><img src="assets/cases/case_15/p04.jpg" alt="彩生活" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p20.jpg" alt="物业 P20">
-        <img src="assets/specialty-cases/ip/ip_main_p21.jpg" alt="物业 P21">
-        <img src="assets/specialty-cases/ip/ip_main_p22.jpg" alt="物业 P22">
-        <img src="assets/specialty-cases/ip/ip_main_p23.jpg" alt="物业 P23">
-        <img src="assets/specialty-cases/ip/ip_main_p24.jpg" alt="物业 P24">
-        <img src="assets/specialty-cases/ip/ip_main_p25.jpg" alt="物业 P25">
-        <img src="assets/specialty-cases/ip/ip_main_p26.jpg" alt="物业 P26">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-26" data-cid="26">
+    <button class="modal-close" onclick="closeCase(26)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">大仟里</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>商业 · 购物中心</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>商业与产业</div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 05 · 藏族 -->
-    <article class="ip-case" data-name="Zangzu">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">05</span>
-        <span class="ip-case-title">藏族人文空间</span>
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_26/p01.jpg" alt="大仟里" loading="eager"><img src="assets/cases/case_26/p02.jpg" alt="大仟里" loading="eager"><img src="assets/cases/case_26/p03.jpg" alt="大仟里" loading="eager"><img src="assets/cases/case_26/p04.jpg" alt="大仟里" loading="eager"><img src="assets/cases/case_26/p05.jpg" alt="大仟里" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p28.jpg" alt="藏族人文空间 · 封面">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-62" data-cid="62">
+    <button class="modal-close" onclick="closeCase(62)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">武阳里</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>商业 · 文旅街区</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>商业与产业</div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p28.jpg" alt="藏族 P28">
-        <img src="assets/specialty-cases/ip/ip_main_p29.jpg" alt="藏族 P29">
-        <img src="assets/specialty-cases/ip/ip_main_p30.jpg" alt="藏族 P30">
-        <img src="assets/specialty-cases/ip/ip_main_p31.jpg" alt="藏族 P31">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_62/p01.jpg" alt="武阳里" loading="eager"><img src="assets/cases/case_62/p02.jpg" alt="武阳里" loading="eager"><img src="assets/cases/case_62/p03.jpg" alt="武阳里" loading="eager"><img src="assets/cases/case_62/p04.jpg" alt="武阳里" loading="eager"></div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 06 · 吉哥鸡煲大排档 -->
-    <article class="ip-case" data-name="Jige">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">06</span>
-        <span class="ip-case-title">吉哥鸡煲大排档</span>
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-29" data-cid="29">
+    <button class="modal-close" onclick="closeCase(29)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">茉莉奶白</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>消费 · 茶饮</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>消费与生活</div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p32.jpg" alt="吉哥鸡煲大排档 · 封面">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_29/p01.jpg" alt="茉莉奶白" loading="eager"><img src="assets/cases/case_29/p02.jpg" alt="茉莉奶白" loading="eager"><img src="assets/cases/case_29/p03.jpg" alt="茉莉奶白" loading="eager"><img src="assets/cases/case_29/p04.jpg" alt="茉莉奶白" loading="eager"><img src="assets/cases/case_29/p05.jpg" alt="茉莉奶白" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p32.jpg" alt="吉哥 P32">
-        <img src="assets/specialty-cases/ip/ip_main_p33.jpg" alt="吉哥 P33">
-        <img src="assets/specialty-cases/ip/ip_main_p34.jpg" alt="吉哥 P34">
-        <img src="assets/specialty-cases/ip/ip_main_p35.jpg" alt="吉哥 P35">
-        <img src="assets/specialty-cases/ip/ip_main_p36.jpg" alt="吉哥 P36">
-        <img src="assets/specialty-cases/ip/ip_main_p37.jpg" alt="吉哥 P37">
-        <img src="assets/specialty-cases/ip/ip_main_p38.jpg" alt="吉哥 P38">
-        <img src="assets/specialty-cases/ip/ip_main_p39.jpg" alt="吉哥 P39">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-39" data-cid="39">
+    <button class="modal-close" onclick="closeCase(39)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">我是酸奶君</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>消费 · 酸奶</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>消费与生活</div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 07 · MINDBOOST · 思速力 -->
-    <article class="ip-case" data-name="Mindboost">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">07</span>
-        <span class="ip-case-title">MINDBOOST · 思速力</span>
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_39/p01.jpg" alt="我是酸奶君" loading="eager"><img src="assets/cases/case_39/p02.jpg" alt="我是酸奶君" loading="eager"><img src="assets/cases/case_39/p03.jpg" alt="我是酸奶君" loading="eager"><img src="assets/cases/case_39/p04.jpg" alt="我是酸奶君" loading="eager"><img src="assets/cases/case_39/p05.jpg" alt="我是酸奶君" loading="eager"><img src="assets/cases/case_39/p06.jpg" alt="我是酸奶君" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p40.jpg" alt="MINDBOOST · 思速力 · 封面">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-51" data-cid="51">
+    <button class="modal-close" onclick="closeCase(51)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">麦轩</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>消费 · 烘焙</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>消费与生活</div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p40.jpg" alt="Mindboost P40">
-        <img src="assets/specialty-cases/ip/ip_main_p41.jpg" alt="Mindboost P41">
-        <img src="assets/specialty-cases/ip/ip_main_p42.jpg" alt="Mindboost P42">
-        <img src="assets/specialty-cases/ip/ip_main_p43.jpg" alt="Mindboost P43">
-        <img src="assets/specialty-cases/ip/ip_main_p44.jpg" alt="Mindboost P44">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_51/p01.jpg" alt="麦轩" loading="eager"><img src="assets/cases/case_51/p02.jpg" alt="麦轩" loading="eager"><img src="assets/cases/case_51/p03.jpg" alt="麦轩" loading="eager"><img src="assets/cases/case_51/p04.jpg" alt="麦轩" loading="eager"><img src="assets/cases/case_51/p05.jpg" alt="麦轩" loading="eager"></div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 08 · 红绿灯公益 -->
-    <article class="ip-case" data-name="Gongyi">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">08</span>
-        <span class="ip-case-title">红绿灯 · 公益品牌</span>
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-57" data-cid="57">
+    <button class="modal-close" onclick="closeCase(57)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">TTL</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>消费 · 品牌</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>消费与生活</div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p45.jpg" alt="红绿灯公益 · 封面">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_57/p01.jpg" alt="TTL" loading="eager"><img src="assets/cases/case_57/p02.jpg" alt="TTL" loading="eager"><img src="assets/cases/case_57/p03.jpg" alt="TTL" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p45.jpg" alt="公益 P45">
-        <img src="assets/specialty-cases/ip/ip_main_p46.jpg" alt="公益 P46">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-25" data-cid="25">
+    <button class="modal-close" onclick="closeCase(25)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">天街</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>商业 · 购物中心</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>商业与产业</div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 09 · 逗号戏剧 -->
-    <article class="ip-case" data-name="CommaDrama">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">09</span>
-        <span class="ip-case-title">逗号戏剧 COMMA DRAMA</span>
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_25/p01.jpg" alt="天街" loading="eager"><img src="assets/cases/case_25/p02.jpg" alt="天街" loading="eager"><img src="assets/cases/case_25/p03.jpg" alt="天街" loading="eager"><img src="assets/cases/case_25/p04.jpg" alt="天街" loading="eager"><img src="assets/cases/case_25/p05.jpg" alt="天街" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p47.jpg" alt="逗号戏剧 · 封面">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-61" data-cid="61">
+    <button class="modal-close" onclick="closeCase(61)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">大又商管</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>商业 · 商管</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>商业与产业</div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p47.jpg" alt="逗号 P47">
-        <img src="assets/specialty-cases/ip/ip_main_p48.jpg" alt="逗号 P48">
-        <img src="assets/specialty-cases/ip/ip_main_p49.jpg" alt="逗号 P49">
-        <img src="assets/specialty-cases/ip/ip_main_p50.jpg" alt="逗号 P50">
-        <img src="assets/specialty-cases/ip/ip_main_p51.jpg" alt="逗号 P51">
-        <img src="assets/specialty-cases/ip/ip_main_p52.jpg" alt="逗号 P52">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_61/p01.jpg" alt="大又商管" loading="eager"><img src="assets/cases/case_61/p02.jpg" alt="大又商管" loading="eager"><img src="assets/cases/case_61/p03.jpg" alt="大又商管" loading="eager"><img src="assets/cases/case_61/p04.jpg" alt="大又商管" loading="eager"></div>
+        </div>
       </div>
-    </article>
-
-    <!-- 案例 10 · 品牌产品线 + IP 延展（合并展示 · 无需拆为 2 部分） -->
-    <article class="ip-case" data-name="Followups">
-      <div class="ip-case-meta">
-        <span class="ip-case-no">10</span>
-        <span class="ip-case-title">品牌产品线 · IP 延展应用</span>
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-32" data-cid="32">
+    <button class="modal-close" onclick="closeCase(32)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">尊宝披萨</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>消费 · 餐饮</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>消费与生活</div>
+        </div>
       </div>
-      <div class="ip-case-cover">
-        <img src="assets/specialty-cases/ip/ip_main_p53.jpg" alt="PRODUCT LINE · 封面">
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_32/p01.jpg" alt="尊宝披萨" loading="eager"><img src="assets/cases/case_32/p02.jpg" alt="尊宝披萨" loading="eager"></div>
+        </div>
       </div>
-      <div class="ip-case-rest">
-        <img src="assets/specialty-cases/ip/ip_main_p53.jpg" alt="P53">
-        <img src="assets/specialty-cases/ip/ip_main_p54.jpg" alt="P54">
-        <img src="assets/specialty-cases/ip/ip_main_p55.jpg" alt="P55">
-        <img src="assets/specialty-cases/ip/ip_main_p56.jpg" alt="P56">
-        <img src="assets/specialty-cases/ip/ip_main_p57.jpg" alt="P57">
-        <img src="assets/specialty-cases/ip/ip_main_p58.jpg" alt="P58">
-        <img src="assets/specialty-cases/ip/ip_main_p59.jpg" alt="P59">
-        <img src="assets/specialty-cases/ip/ip_main_p60.jpg" alt="P60">
-        <img src="assets/specialty-cases/ip/ip_main_p61.jpg" alt="P61">
-        <img src="assets/specialty-cases/ip/ip_extra_p01.jpg" alt="IP 应用 1">
-        <img src="assets/specialty-cases/ip/ip_extra_p02.jpg" alt="IP 应用 2">
-        <img src="assets/specialty-cases/ip/ip_extra_p03.jpg" alt="IP 应用 3">
-        <img src="assets/specialty-cases/ip/ip_extra_p04.jpg" alt="IP 应用 4">
-        <img src="assets/specialty-cases/ip/ip_extra_p05.jpg" alt="IP 应用 5">
+    </div>
+  </div>
+<div class="case-modal" id="case-modal-46" data-cid="46">
+    <button class="modal-close" onclick="closeCase(46)" aria-label="关闭">×</button>
+    <div class="case-modal-content">
+      <div class="case-modal-header">
+        <h2 class="case-modal-title">微众银行WeBank</h2>
+        <div class="case-modal-meta">
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">行业</span>科技 · 数字银行</div>
+          <div class="case-modal-meta-item"><span class="case-modal-meta-label">板块</span>科技与智造</div>
+        </div>
       </div>
-    </article>
-
+      <div class="case-modal-body">
+        <div class="case-modal-section case-modal-highlight">
+          <div class="case-modal-section-label">项目亮点</div>
+          <p>品牌升级与视觉系统构建</p>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">服务内容</div>
+          <ul class="case-modal-services"><li>品牌策略</li><li>品牌视觉系统</li></ul>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">设计风格</div>
+          <div class="case-modal-tags"></div>
+        </div>
+        <div class="case-modal-section">
+          <div class="case-modal-section-label">项目图片</div>
+          <div class="case-modal-gallery"><img src="assets/cases/case_46/p01.jpg" alt="微众银行WeBank" loading="eager"><img src="assets/cases/case_46/p02.jpg" alt="微众银行WeBank" loading="eager"><img src="assets/cases/case_46/p03.jpg" alt="微众银行WeBank" loading="eager"><img src="assets/cases/case_46/p04.jpg" alt="微众银行WeBank" loading="eager"><img src="assets/cases/case_46/p05.jpg" alt="微众银行WeBank" loading="eager"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -254,40 +493,5 @@
 </footer>
 
 <script src="js/main.js"></script>
-<script>
-// IP 案例：hover + 滚轮 → 横向滑动
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.ip-case').forEach(caseEl => {
-    const cover = caseEl.querySelector('.ip-case-cover');
-    const rest  = caseEl.querySelector('.ip-case-rest');
-    if (!cover || !rest) return;
-
-    let visible = false;
-
-    function showRest() {
-      if (visible) return;
-      visible = true;
-      rest.style.maxHeight = '1200px';
-      rest.style.opacity = '1';
-    }
-    function hideRest() {
-      visible = false;
-      rest.style.maxHeight = '0';
-      rest.style.opacity = '0';
-    }
-
-    caseEl.addEventListener('mouseenter', showRest);
-    caseEl.addEventListener('mouseleave', () => {
-      hideRest();
-    });
-
-    // wheel 在 rest 上时，横滑
-    rest.addEventListener('wheel', (e) => {
-      e.preventDefault();
-      rest.scrollLeft += e.deltaY;
-    }, { passive: false });
-  });
-});
-</script>
 </body>
 </html>
