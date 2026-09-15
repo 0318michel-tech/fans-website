@@ -884,7 +884,8 @@
       "sections": [
         "消费与生活",
         "茶饮",
-        "生活方式"
+        "生活方式",
+        "餐饮"
       ],
       "industry": "酿造",
       "cover_image": "assets/cases/case_54_万罐酿造.jpg",
@@ -902,11 +903,57 @@
       "highlight": "以罐为符号的精酿酿造品牌形象打造"
     },
     {
+      "id": "76",
+      "name": "万罐酿造ONE GRAND-安邻荟",
+      "sections": [
+        "消费与生活",
+        "餐饮"
+      ],
+      "industry": "酿造",
+      "cover_image": "assets/cases/case_76/p01.jpg",
+      "detail_folder": "assets/cases/case_76",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "77",
+      "name": "万罐酿造ONE GRAND-石厦",
+      "sections": [
+        "消费与生活",
+        "餐饮"
+      ],
+      "industry": "酿造",
+      "cover_image": "assets/cases/case_77/p01.jpg",
+      "detail_folder": "assets/cases/case_77",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
+      "id": "78",
+      "name": "燃料补给站酒馆",
+      "sections": [
+        "消费与生活",
+        "餐饮"
+      ],
+      "industry": "酒馆",
+      "cover_image": "assets/cases/case_78/p01.jpg",
+      "detail_folder": "assets/cases/case_78",
+      "editable": true,
+      "services": [],
+      "style_tags": [],
+      "highlight": ""
+    },
+    {
       "id": "51",
       "name": "麦轩",
       "sections": [
         "消费与生活",
-        "茶饮"
+        "茶饮",
+        "餐饮"
       ],
       "industry": "烘焙",
       "cover_image": "assets/cases/case_51_麦轩.jpg",
@@ -921,7 +968,8 @@
       "name": "尊宝披萨",
       "sections": [
         "消费与生活",
-        "茶饮"
+        "茶饮",
+        "餐饮"
       ],
       "industry": "餐饮",
       "cover_image": "assets/cases/case_32_尊宝披萨.jpg",
@@ -937,7 +985,8 @@
       "sections": [
         "消费与生活",
         "茶饮",
-        "生活方式"
+        "生活方式",
+        "餐饮"
       ],
       "industry": "生活方式",
       "cover_image": "assets/cases/case_33_be echoes回响.jpg",
@@ -951,7 +1000,8 @@
       "id": "56",
       "name": "大湾小月",
       "sections": [
-        "消费与生活"
+        "消费与生活",
+        "餐饮"
       ],
       "industry": "消费",
       "cover_image": "assets/cases/case_56_大湾小月.jpg",
@@ -967,7 +1017,8 @@
       "sections": [
         "消费与生活",
         "茶饮",
-        "生活方式"
+        "生活方式",
+        "餐饮"
       ],
       "industry": "茶饮",
       "cover_image": "assets/cases/case_34_寻尝茶铺.jpg",
@@ -1058,7 +1109,8 @@
       "id": "38",
       "name": "吉哥鸡煲大排档",
       "sections": [
-        "消费与生活"
+        "消费与生活",
+        "餐饮"
       ],
       "industry": "餐饮",
       "cover_image": "assets/cases/case_38_吉哥鸡煲大排档.jpg",
